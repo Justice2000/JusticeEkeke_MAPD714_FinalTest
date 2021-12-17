@@ -117,10 +117,3 @@ class ViewController: UIViewController {
     
 }
 
-class BMITackerViewController: UIViewController
-{
-    
-    
-    
-}
-
