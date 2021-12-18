@@ -73,6 +73,8 @@
 				CF2A655B276BE3A3002F379C /* SceneDelegate.swift */,
 				CF2A655D276BE3A3002F379C /* ViewController.swift */,
 				CF2A6575276CC5C4002F379C /* BMITrackerVC.swift */,
+				CF2A6577276D2D99002F379C /* BMIcellTableViewCell.swift */,
+				CF2A6578276D2D99002F379C /* BMIcellTableViewCell.xib */,
 				CF2A655F276BE3A3002F379C /* Main.storyboard */,
 				CF2A6565276BE3A6002F379C /* Assets.xcassets */,
 				CF2A6567276BE3A6002F379C /* LaunchScreen.storyboard */,
@@ -87,8 +89,6 @@
 			children = (
 				CF2A6570276CC2CD002F379C /* BMIItem+CoreDataClass.swift */,
 				CF2A6571276CC2CD002F379C /* BMIItem+CoreDataProperties.swift */,
-				CF2A6577276D2D99002F379C /* BMIcellTableViewCell.swift */,
-				CF2A6578276D2D99002F379C /* BMIcellTableViewCell.xib */,
 			);
 			path = BMIItem;
 			sourceTree = "<group>";
