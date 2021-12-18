@@ -15,8 +15,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI CALCULATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htw-Ke-8w6">
-                                <rect key="frame" x="20" y="422" width="374" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CALCULATOR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htw-Ke-8w6">
+                                <rect key="frame" x="64" y="421.5" width="286" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="286" id="Cbs-t2-eBp"/>
+                                    <constraint firstAttribute="height" constant="53" id="gqA-In-MCh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kks-cX-Bqz">
+                                <rect key="frame" x="167.5" y="360" width="79" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="1wB-H2-P0K"/>
+                                    <constraint firstAttribute="height" constant="53" id="Bsr-XZ-NgC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -25,8 +39,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.74901960779999999" green="0.69803921570000005" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Htw-Ke-8w6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eSI-yJ-Bne"/>
-                            <constraint firstItem="Htw-Ke-8w6" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fId-Kt-3M2"/>
+                            <constraint firstItem="kks-cX-Bqz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="316" id="4MI-Ws-0Jz"/>
+                            <constraint firstItem="kks-cX-Bqz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fWd-T2-Lea"/>
+                            <constraint firstItem="kks-cX-Bqz" firstAttribute="centerX" secondItem="Htw-Ke-8w6" secondAttribute="centerX" id="r5V-J3-Wx3"/>
+                            <constraint firstItem="Htw-Ke-8w6" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rdz-wJ-kfD"/>
                         </constraints>
                     </view>
                 </viewController>
